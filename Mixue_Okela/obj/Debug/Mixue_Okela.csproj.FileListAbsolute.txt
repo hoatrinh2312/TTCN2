@@ -1,0 +1,12 @@
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmChinh.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmCuaHang.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.Properties.Resources.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Mixue_Okela.exe.config
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Mixue_Okela.exe
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Mixue_Okela.pdb
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.exe
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.pdb
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmPhieuXuatKho.resources
