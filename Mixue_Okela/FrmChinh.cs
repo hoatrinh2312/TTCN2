@@ -33,5 +33,23 @@ namespace Mixue_Okela
             FrmCuaHang DM_TL = new FrmCuaHang();
             DM_TL.ShowDialog();
         }
+
+        private void sảnPhẩmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmSanPham DM_TL = new FrmSanPham();
+            DM_TL.ShowDialog();
+        }
+
+        private void phiếuNhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPhieuNhapKho DM_TL = new FrmPhieuNhapKho();
+            DM_TL.ShowDialog();
+        }
+
+        private void mnuBCTK_Click(object sender, EventArgs e)
+        {
+            FrmBC_TK DM_TL = new FrmBC_TK();
+            DM_TL.ShowDialog();
+        }
     }
 }

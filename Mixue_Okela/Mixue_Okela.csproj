@@ -40,6 +40,7 @@
     <Reference Include="System.Security" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="Microsoft.Office.Interop.Excel" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
@@ -47,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmBC_TK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBC_TK.Designer.cs">
+      <DependentUpon>FrmBC_TK.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,23 +66,44 @@
     <Compile Include="FrmCuaHang.Designer.cs">
       <DependentUpon>FrmCuaHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPhieuNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPhieuNhapKho.Designer.cs">
+      <DependentUpon>FrmPhieuNhapKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPhieuXuatKho.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPhieuXuatKho.Designer.cs">
       <DependentUpon>FrmPhieuXuatKho.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSanPham.Designer.cs">
+      <DependentUpon>FrmSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmBC_TK.resx">
+      <DependentUpon>FrmBC_TK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmChinh.resx">
       <DependentUpon>FrmChinh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCuaHang.resx">
       <DependentUpon>FrmCuaHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmPhieuNhapKho.resx">
+      <DependentUpon>FrmPhieuNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmPhieuXuatKho.resx">
       <DependentUpon>FrmPhieuXuatKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSanPham.resx">
+      <DependentUpon>FrmSanPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

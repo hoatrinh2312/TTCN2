@@ -41,7 +41,7 @@
             this.phiếuNhậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phiếuXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.báoCáoTồnKhoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuBCTK = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoKiểmKêĐịnhKìToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lậpPhiếuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phiếuĐặtHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,21 +92,21 @@
             // 
             this.nhânViênToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.nhânViênToolStripMenuItem.Text = "Nhân viên";
             // 
             // chứcVụToolStripMenuItem
             // 
             this.chứcVụToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chứcVụToolStripMenuItem.Name = "chứcVụToolStripMenuItem";
-            this.chứcVụToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.chứcVụToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.chứcVụToolStripMenuItem.Text = "Chức vụ";
             // 
             // mnuCuaHang
             // 
             this.mnuCuaHang.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuCuaHang.Name = "mnuCuaHang";
-            this.mnuCuaHang.Size = new System.Drawing.Size(224, 26);
+            this.mnuCuaHang.Size = new System.Drawing.Size(202, 26);
             this.mnuCuaHang.Text = "Cửa hàng";
             this.mnuCuaHang.Click += new System.EventHandler(this.mnuCuaHang_Click);
             // 
@@ -114,14 +114,15 @@
             // 
             this.sảnPhẩmToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sảnPhẩmToolStripMenuItem.Name = "sảnPhẩmToolStripMenuItem";
-            this.sảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sảnPhẩmToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.sảnPhẩmToolStripMenuItem.Text = "Sản phẩm";
+            this.sảnPhẩmToolStripMenuItem.Click += new System.EventHandler(this.sảnPhẩmToolStripMenuItem_Click);
             // 
             // nhàCungCấpToolStripMenuItem
             // 
             this.nhàCungCấpToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nhàCungCấpToolStripMenuItem.Name = "nhàCungCấpToolStripMenuItem";
-            this.nhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nhàCungCấpToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.nhàCungCấpToolStripMenuItem.Text = "Nhà cung cấp";
             // 
             // tìmKiếmToolStripMenuItem
@@ -159,19 +160,20 @@
             // báoCáoToolStripMenuItem
             // 
             this.báoCáoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.báoCáoTồnKhoToolStripMenuItem,
+            this.mnuBCTK,
             this.báoCáoKiểmKêĐịnhKìToolStripMenuItem});
             this.báoCáoToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
             this.báoCáoToolStripMenuItem.Size = new System.Drawing.Size(113, 30);
             this.báoCáoToolStripMenuItem.Text = "Báo cáo ";
             // 
-            // báoCáoTồnKhoToolStripMenuItem
+            // mnuBCTK
             // 
-            this.báoCáoTồnKhoToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.báoCáoTồnKhoToolStripMenuItem.Name = "báoCáoTồnKhoToolStripMenuItem";
-            this.báoCáoTồnKhoToolStripMenuItem.Size = new System.Drawing.Size(286, 26);
-            this.báoCáoTồnKhoToolStripMenuItem.Text = "Báo cáo tồn kho";
+            this.mnuBCTK.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mnuBCTK.Name = "mnuBCTK";
+            this.mnuBCTK.Size = new System.Drawing.Size(286, 26);
+            this.mnuBCTK.Text = "Báo cáo tồn kho";
+            this.mnuBCTK.Click += new System.EventHandler(this.mnuBCTK_Click);
             // 
             // báoCáoKiểmKêĐịnhKìToolStripMenuItem
             // 
@@ -204,6 +206,7 @@
             this.phiếuNhậpKhoToolStripMenuItem.Name = "phiếuNhậpKhoToolStripMenuItem";
             this.phiếuNhậpKhoToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.phiếuNhậpKhoToolStripMenuItem.Text = "Phiếu nhập kho";
+            this.phiếuNhậpKhoToolStripMenuItem.Click += new System.EventHandler(this.phiếuNhậpKhoToolStripMenuItem_Click);
             // 
             // phiếuXuấtKhoToolStripMenuItem
             // 
@@ -252,7 +255,7 @@
         private System.Windows.Forms.ToolStripMenuItem phiếuNhậpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem phiếuXuấtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem báoCáoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem báoCáoTồnKhoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuBCTK;
         private System.Windows.Forms.ToolStripMenuItem báoCáoKiểmKêĐịnhKìToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lậpPhiếuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem phiếuĐặtHàngToolStripMenuItem;

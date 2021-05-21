@@ -10,3 +10,13 @@ C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Mixue_Okela.pdb
 C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.exe
 C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.pdb
 C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmPhieuXuatKho.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\office.dll
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\stdole.dll
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\bin\Debug\office.xml
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmSanPham.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.csproj.CopyComplete
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmPhieuNhapKho.resources
+C:\Users\Admin\source\repos\Mixue_Okela\Mixue_Okela\obj\Debug\Mixue_Okela.FrmBC_TK.resources
